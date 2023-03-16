@@ -4,7 +4,8 @@ class Cards {
         this.cardEsq = document.querySelector('.card-esq');
         this.cardDir = document.querySelector('.card-dir');
     }
-
+    
+    // para fazer funcionar em browsers mais antigos
     scrollCards() {
         window.requestAnimationFrame(this.calculoScroll.bind(this));
     }
